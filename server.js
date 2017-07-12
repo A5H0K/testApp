@@ -22,8 +22,8 @@ app.use(bodyParser.urlencoded({ extended: true })); // parse application/x-www-f
 //require('./routes/routes')(app);
 
 
-app.get('/testRouting',function(req,res){
-    res.send('Testing the App')
+app.get('/',function(req,res){
+    res.send('Testing the App for the default route')
 })
 
 
