@@ -1,13 +1,14 @@
 {
   "name": "testApp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
    "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "engines": {
-    "node": "6.9.1"
+    "node": "0.10.x",
+    "npm": "1.2.x"
   },
   "dependencies": {
     
