@@ -1,0 +1,21 @@
+{
+  "name": "testApp",
+  "description": "sample app for node and bower",
+  "main": "server.js",
+  "authors": [
+    "Ashok"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/A5H0K/testApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7"
+  }
+}
