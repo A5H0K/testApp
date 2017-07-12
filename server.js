@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // parse application/x-www-f
 
 
 app.get('/',function(req,res){
-    res.send('Testing the App for the default route')
+    res.send('Testing the App for the default route after the bower addition')
 })
 
 
