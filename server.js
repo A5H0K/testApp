@@ -26,6 +26,10 @@ app.get('/',function(req,res){
     res.send('Testing the App for the default route after the bower addition')
 })
 
+app.get('/default',function(req,res){
+    res.send('Testing the App with the  route after the bower addition')
+})
+
 
 
 app.listen(port);
